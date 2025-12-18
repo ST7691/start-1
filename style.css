@@ -1,1 +1,80 @@
 /* header part */
+.header-body{
+   background-color: #f5fff3;
+    width: 1600px;
+    height: 987px;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* nabar part  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+nav>ul{
+    display: flex;      
+    font-weight: 400;
+    font-size: 20px;
+    gap: 30px;
+   align-items: center;
+
+}
+nav li{
+  list-style: none;
+
+
+}
+nav li a{
+      text-decoration: none;
+       color: #474747;
+}
+.h-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+span{
+     color: #fd6e0a;
+}
+.btn-primariy{
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color:#fff ;
+    font-size: 20px;
+    padding: 25px ;
+}
+/* banner part start */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display:flex;
+    gap: 30px;
+}
+.baneer-part{
+    margin-left:150px ;
+    margin-right: 50px;
+}
+.banar-contain{
+    width: 585px;
+    height: 356px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.bannar-p{
+font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+
+}
+img{
+    width: 584px;
+      height: 676px;
+}
