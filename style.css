@@ -86,49 +86,13 @@ span{
     width: 584px;
     height: 676px;  
 }
-
-/* about section */
+/* main part */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
-/* .about-section{
-    text-align: ;
-     height: 550px;
-    margin: 150px auto;
-} */
-/* .about-contain{
-   text-align: center;
-   border-radius: 10px;
-    width: 1140px;
-   
-    background-color: #dbb193;
-    padding-top: 50px auto;
-}
-.about-title{
-   /* */
-/* font-weight: 700;
-font-size: 35px;
-color: #181818;
-}
-.about-p{
-   
-font-weight: 400;
-font-size: 18px; */
-/* text-align: center;
-color:#757575;
-}
-.about-item-container {
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-around;
+/* about section */
 
-}
-.about-item{
-    padding-right: 100px;
-    padding-left: 100px;
-  
-} */ 
  /* what i do section */
  .what-i-do-container{
     display: flex;
@@ -170,3 +134,55 @@ font-size: 16px;
 line-height: 175%;
 color:#757575;
 }
+/* resume section start */
+.resume-summary-h{
+font-weight: 700;
+font-size: 35px;
+text-align: center;
+color:#181818;
+padding-top: 130px;
+padding-bottom: 110px;
+}
+.resumy-container{
+    display:flex;
+    gap: 70px;
+}
+.resumi-item{
+
+}
+.resumy-info{
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+.resumy-header{
+font-weight: 700;
+color:#181818;
+font-size: 30px;
+padding-bottom: 30px;
+}
+.resumy-info-h{
+font-weight: 700;
+font-size: 25px;
+color:#474747;
+}
+.resumi-collage{
+font-weight: 600;
+font-size: 20px;
+color:#757575;
+}
+.resumy-info-p{
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color:#757575;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 558px;
+
+}
+.resumy-btn{
+    text-align: center;
+    margin-bottom: 110px;
+}
+/* resume section end */
