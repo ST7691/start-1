@@ -92,7 +92,45 @@ main{
     margin: 0 auto;
 }
 /* about section */
-
+.about{
+    background: #FFF8F3;
+    margin-bottom: 130px;
+}
+.about-contain{
+    padding: 130px;
+}
+.about-header{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color:#181818 ;
+        }
+.about-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color:#757575;
+}        
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 30px;
+}
+.about-item{
+    text-align: center;
+}
+.about-info-h{
+    font-weight: 400;
+    font-size: 20px;
+    color:#757575;
+}
+.about-info-p{
+    font-weight: 400;
+    font-size: 20px;
+    color:#474747;
+}
  /* what i do section */
  .what-i-do-container{
     display: flex;
