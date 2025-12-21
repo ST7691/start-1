@@ -224,3 +224,49 @@ hr{
     margin-bottom: 110px;
 }
 /* resume section end */
+
+
+/* footer section start */
+footer{
+    display: flex;
+    gap: 110px;
+    background-color: #FFF8F3;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    padding: 200px;
+    /* width: 50%; */
+}
+.fotter-contact{
+    width: 50%;
+}
+.footer-h{
+    font-weight: 700;
+    font-size: 35px;
+    color:#181818;
+    padding-bottom: 30px;
+}.fotter-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color:#474747;
+    padding-bottom: 30px;
+}
+/* footer section end */
+.contact input[type="text"],
+.contact input[type="email"],
+textarea{
+display: block;
+width: 100%;
+padding: 18px 35px;
+border: 0;
+background:#FFFF;
+margin-bottom: 25px;
+color: #757575;
+border-radius: 5px;
+
+}
+/* .contact input [type="text"],
+.contact input [type="email"],
+textarea{
+
+} */
